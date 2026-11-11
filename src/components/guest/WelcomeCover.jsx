@@ -41,7 +41,7 @@ export default function WelcomeCover({ onOpen }) {
             &amp;
           </span>
 
-          <span className="text-xl font-serif font-bold inline-block text-transparent bg-clip-text bg-lineargradient-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-4">
+          <span className="text-xl font-serif font-bold inline-block text-transparent bg-clip-text bg-linear-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] mt-4">
             រ៉ុន រ៉ាឌី
           </span>
         </div>
