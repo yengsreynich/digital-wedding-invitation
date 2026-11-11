@@ -78,10 +78,10 @@ export default function CountdownTimer() {
       <div className="relative z-10 w-full px-6 py-20 flex flex-col items-center justify-center">
 
         <div className="items-center text-center pb-10">
-          <h3 className="text-3xl font-serif font-bold inline-block text-transparent bg-clip-text bg-winver-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] pb-2">មេសា​២០២៧</h3>
+          <h3 className="text-3xl font-serif font-bold inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] pb-2">មេសា​២០២៧</h3>
           <p className="text-xs text-amber-100 mb-4">ផល្គុន​ - ចេត្រ ឆ្នាំមមែ ព.ស.២៥៧០</p>
           
-          <div className="grid grid-cols-7 gap-2 text-xs font-semibold text-transparent bg-clip-text bg-winver-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] mb-2">
+          <div className="grid grid-cols-7 gap-2 text-xs font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] mb-2">
             <span>អាទិត្យ</span>
             <span>ចន្ទ័</span>
             <span>អង្គារ</span>
@@ -135,7 +135,7 @@ export default function CountdownTimer() {
           <div className="w-full flex justify-center">
             <button 
               onClick={handleGoogleCalendar}
-              className="w-auto px-4 bg-white/20 mb-4 items-center text-amber-100 hover:bg-white/30 font-bold py-2.5 rounded-full transition-all flex justify-center gap-2 cursor-pointer border border-amber-400/40"
+              className="w-auto px-4 bg-white/20 mb-4 items-center text-amber-100 hover:bg-white/30 font-bold py-2.5 rounded-full transition-all flex items-center justify-center gap-2 cursor-pointer border border-amber-400/40"
             >
               <Bell size={18} className="text-amber-300" />
               <span className="font-serif font-bold">រំលឹកខ្ញុំ</span>
@@ -156,7 +156,7 @@ export default function CountdownTimer() {
             see you soon
           </h3>
           
-          <h2 className="text-3xl font-serif font-bold inline-block text-transparent bg-clip-text bg-winver-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] pb-5">
+          <h2 className="text-3xl font-serif font-bold inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 via-yellow-100 to-amber-600 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] pb-5">
             រាប់ថយក្រោយ
           </h2>
 
