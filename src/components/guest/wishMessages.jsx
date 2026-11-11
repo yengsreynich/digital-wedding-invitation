@@ -7,7 +7,7 @@ export default function WishMessages() {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await fetch('https://wedding-backend-e3r3.onrender.com/api/rsvp');
+        const response = await fetch('https://wedding-backend-e3r3.onrender.com/api/rsvp ');
         const result = await response.json();
         
         if (result.success) {
